@@ -48,9 +48,8 @@ export const MaskContainer = ({
       <motion.div
         className="w-full h-full flex items-center justify-center text-6xl absolute bg-black bg-grid-white/[0.2] text-white [mask-image:url(/mask.svg)] [mask-size:40px] [mask-repeat:no-repeat]"
         animate={{
-          WebkitMaskPosition: `${mousePosition.x - maskSize / 2}px ${
-            mousePosition.y - maskSize / 2
-          }px`,
+          WebkitMaskPosition: `${mousePosition.x - maskSize / 2}px ${mousePosition.y - maskSize / 2
+            }px`,
           WebkitMaskSize: `${maskSize}px`,
         }}
         transition={{ type: "tween", ease: "backOut", duration: 0.1 }}
