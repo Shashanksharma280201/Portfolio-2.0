@@ -8,7 +8,7 @@ import { LampContainer } from "../components/ui/lamp";
 const Header = () => {
   return (
     <>
-      <div className="container justify-center items-center flex w-full h-[70vh] relative top-[15vh]">
+      <div className=" flex w-full h-screen">
         <LampContainer>
           <motion.h1
             initial={{ opacity: 0.5, y: 100 }}
@@ -20,7 +20,7 @@ const Header = () => {
             }}
             className="mt-8 bg-gradient-to-br from-slate-300 to-slate-500 py-4 bg-clip-text text-center text-4xl font-medium tracking-tight text-transparent md:text-7xl"
           >
-            Shashank Sharma <br /> <h2 className='flex text-[40px] text-center items-center p-6'>Electronic and Communication Engineer</h2>
+            Shashank Sharma <br /> <h2 className='flex text-[40px] text-center items-center'>Electronic and Communication Engineer</h2>
           </motion.h1>
         </LampContainer>
       </div>

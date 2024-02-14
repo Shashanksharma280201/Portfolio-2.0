@@ -54,7 +54,9 @@ export const MaskContainer = ({
         }}
         transition={{ type: "tween", ease: "backOut", duration: 0.1 }}
       >
-        <div className="absolute inset-0 bg-black h-full w-full z-0 opacity-50" />
+        <div className="absolute inset-0 bg-black h-full w-fit mx-auto z-0 opacity-30">
+          <img src="\image\m1.jpg" alt="image" style={{width:'100%', height:'100%' }} />
+        </div>
         <div
           onMouseEnter={() => {
             setIsHovered(true);
